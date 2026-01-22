@@ -51,3 +51,18 @@ celerybeat.pid
 # OS
 .DS_Store
 Thumbs.db 
+
+notepad .gitignore
+```
+
+Add these lines at the end:
+```
+# Backup files
+*_backup.py
+*.bak
+
+# Excel/CSV test files
+*_test.xlsx
+*_test.csv
+*_import*.xlsx
+*_export*.xlsx
